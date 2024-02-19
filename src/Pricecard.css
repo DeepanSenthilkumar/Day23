@@ -1,0 +1,58 @@
+
+
+   .price-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Set a fixed height for the card */
+    overflow-y: auto; /* Enable vertical scrolling if features exceed card height */
+  }
+
+  .price{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  .price-card h2 {
+    margin-top: 0;    /* Remove default margin from h2 */
+    font-weight: 300;
+    font-size: small;
+    color: grey; 
+  }
+  
+  .price-card .features {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+  }
+  
+  .price-card .features li {
+    margin-bottom: 10px;
+    color: gray;
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-card .features .symbol {
+    margin-right: 5px; /* Add spacing between symbol and feature */
+  }
+  
+  .price-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
